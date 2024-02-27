@@ -186,10 +186,10 @@ public class Day3 {
         String num2 = null;
 
         if(D3[y-1][x-1])
-        if(num1 != null && num2 != null){
-            return (Integer.valueOf(num1) * Integer.valueOf(num2));
-        }else{
-            return 0;
-        }
+            if(num1 != null && num2 != null){
+                return (Integer.valueOf(num1) * Integer.valueOf(num2));
+            }else{
+                return 0;
+            }
     }
 }
